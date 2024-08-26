@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+section {
+  width: 600px;
+  min-height: 260px;
+  color: rgb(50, 50, 50);
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.692);
+  background: rgb(159, 158, 158);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 10px;
+}
+
+#agregar-tarea {
+  background: rgb(11, 181, 11);
+  color: antiquewhite;
+  border: 1px solid rgb(5, 122, 5);
+  border-radius: 5px;
+  padding: 9px 8px;
+}
+
+.eliminar-tarea {
+  background: red;
+  color: aliceblue;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+h3 {
+    padding: 10px;
+}
+
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1px 10px; 
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.class-done {
+    text-decoration: line-through; 
+    background-color: #d3ffd3; 
+}
